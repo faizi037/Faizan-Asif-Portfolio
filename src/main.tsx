@@ -74,7 +74,7 @@ function setCircularFavicon(src: string) {
     ctx.font = 'bold 24px Arial';
     ctx.textAlign = 'center';
     ctx.textBaseline = 'middle';
-    ctx.fillText('MS', 32, 32);
+    ctx.fillText('FA', 32, 32);
     
     favicon.href = canvas.toDataURL("image/png");
   };

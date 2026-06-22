@@ -159,11 +159,11 @@ const Hero = () => {
               </div>
 
               {/* Simplified floating elements */}
-              <div className="absolute -top-4 -right-4 bg-white/10 backdrop-blur-md p-4 rounded-2xl border border-white/20 shadow-xl">
-                <span className="text-2xl">🚀</span>
+              <div className="absolute -top-2 -right-2 md:-top-4 md:-right-4 bg-white/10 backdrop-blur-md p-2 md:p-4 rounded-xl md:rounded-2xl border border-white/20 shadow-xl select-none pointer-events-none">
+                <span className="text-lg md:text-2xl">🚀</span>
               </div>
-              <div className="absolute -bottom-4 -left-4 bg-white/10 backdrop-blur-md p-4 rounded-2xl border border-white/20 shadow-xl">
-                <span className="text-2xl">💙</span>
+              <div className="absolute -bottom-2 -left-2 md:-bottom-4 md:-left-4 bg-white/10 backdrop-blur-md p-2 md:p-4 rounded-xl md:rounded-2xl border border-white/20 shadow-xl select-none pointer-events-none">
+                <span className="text-lg md:text-2xl">💙</span>
               </div>
             </div>
           </motion.div>

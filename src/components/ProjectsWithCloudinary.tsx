@@ -345,7 +345,7 @@ const ProjectsWithCloudinary = () => {
           <div className="flex justify-center mb-6">
             <motion.img
               src={profileImage}
-              alt="Muhammad Soban"
+              alt="Faizan Asif"
               className="w-20 h-20 rounded-full object-cover border-4 border-accent/20 shadow-2xl"
               initial={{ opacity: 0.9, scale: 0.95 }}
               whileInView={{ opacity: 1, scale: 1 }}
