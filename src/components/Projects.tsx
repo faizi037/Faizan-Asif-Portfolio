@@ -131,6 +131,7 @@ const ProjectCard = ({ title, description, tags, links, cover, screenshots, colo
                 key={currentIndex}
                 src={screenshots[currentIndex]}
                 alt={`${title} ${currentIndex + 1}`}
+                loading="eager"
                 className="w-full h-full object-cover opacity-100"
                 initial={{ opacity: 0, x: 24 }}
                 animate={{ opacity: 1, x: 0 }}

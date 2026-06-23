@@ -1,7 +1,7 @@
 const InteractiveBackground = () => {
   return (
     <>
-      <div className="fixed inset-0 -z-10 pointer-events-none">
+      <div className="fixed inset-0 -z-10 pointer-events-none" style={{ transform: "translateZ(0)", willChange: "transform" }}>
         {/* Static gradient backgrounds - much lighter */}
         <div className="absolute inset-0 bg-gradient-to-br from-accent/5 via-transparent to-primary/5" />
         <div className="absolute top-20 left-10 w-72 h-72 bg-accent/8 rounded-full blur-3xl" />
